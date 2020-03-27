@@ -12,6 +12,12 @@ if __name__ == '__main__':
     #获取不同车型iccid每个月的流量
     for model_iccid in model_iccid_dict.items():
     #model_iccid[0]为车型，model_iccid[1]为对应车型的ICCID列表
+        model = model_iccid[0]
+        iccid_list = model_iccid[1]
+        #获取各个月份的流量
+        date_traffic_dict =
+
+
 
     #获取流量分段中的人数
     #画图
