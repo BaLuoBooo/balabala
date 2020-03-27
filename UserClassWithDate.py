@@ -4,10 +4,3 @@
 # @Email: 1xxxxxxx@qq.com
 # @File: UserClassWithDate.py
 # @Function:根据日期将用户进行分类
-#class UserClassif:
-    #def get_data(self):
-
-    #def date_classfiy(self):
-
-
-    #def

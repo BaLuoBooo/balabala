@@ -6,10 +6,16 @@
 # @Function:
 class ClassifyData:
     def classify_data(self,traffic_data):
-        index = traffic_data/20
-        print(int(index))
-
+        if traffic_data!= 0:
+            index = traffic_data/50
+            #print(int(index))
+            if index < 19:
+                return int(index)
+            else:
+                return 20
+        else:
+            return -1
 
 if __name__ == '__main__':
     CD = ClassifyData()
-    CD.classify_data(21)
+    CD.classify_data(19.111)
